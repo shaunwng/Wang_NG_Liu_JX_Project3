@@ -1,3 +1,486 @@
 .hidden{
 	display: none;
 }
+html{
+	background-color: black;
+}
+
+
+body{
+	font-family: Airal, sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+}
+#container{
+	width: 960px;
+	height: 1800px;
+	margin: 0 auto;
+	background-color: #24C7E5;
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+/*for header */
+
+#mainHeader{
+	height: 100px;
+	background-color: #808080;
+
+}
+
+#logo{
+	width: 200px;
+	background-color: #2f2f2f;
+	float: left;
+}
+#logo h2{
+	color: white;
+	text-align: center;
+	line-height: 100px;
+
+}
+
+
+#mainNav{
+	width: 760px;
+	height: 100px;
+	background-color: #5a5454;
+	float: left;
+}
+#mainNav h2{
+	color: #2f2f2f;
+	text-align: center;
+	line-height: 100px;
+}
+
+
+
+/*header end*/
+
+
+/*for banner*/
+#contactBanner{
+	height: 400px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	background-color: white;
+}
+
+.bannerText{
+	width: 340px;
+	height: 160px;
+	background-color: #808080;
+	margin:120px 60px 120px 80px;
+	text-align: center;
+}
+.bannerText h3{
+	line-height: 160px;
+}
+
+.bannerPhoto_1 ,.bannerPhoto_2 {
+	width: 160px;
+	height: 220px;
+	background-color: #808080;
+	text-align: center;
+}
+
+.bannerPhoto_1 h3,.bannerPhoto_2 h3{
+	font-size: 15px;
+	line-height: 220px;
+}
+
+
+.bannerPhoto_1{
+	margin:90px 20px 90px 60px;
+}
+
+
+.bannerPhoto_2{
+	margin-top: 70px;
+	margin-left: 10px;
+}
+
+/*banner end*/
+
+
+
+
+/*for contact form 1*/
+
+
+#contactForm_1{
+	height: 580px;
+	background-color: #a8a4a4;
+}
+
+#contactForm_1 h2 {
+	text-align: center;
+	font-family: 'STSong';
+	font-size:55px;
+	color: #707070;
+	margin-top: 10px;
+
+}
+
+#form1board{
+
+	width: 760px;
+	height: 420px;
+	background-color: #808080;
+	display: flex;
+	flex-direction: row;
+	margin-left: 100px;
+}
+
+.form1Logo{
+	width: 225px;
+	height: 120px;
+	background-color: #2f2f2f;
+	margin-top: 150px;
+	margin-left: 42.5px;
+}
+
+.form1Logo p{
+	text-align: center;
+	line-height: 120px;
+	color: white;
+}
+
+.form1Right{
+	display: flex;
+	flex-direction: column;
+	width: 330px;
+	height: 420px;
+	margin-left: 110px;
+}
+
+
+.form1Area p{
+text-align: center;
+margin-top: 13px;
+font-weight: bold;
+}
+
+.form1Title{
+	background-color: white;
+	width: 330px;
+	height: 68px;
+	margin-top: 14px;
+}
+.form1Title p{
+	text-align: center;
+	line-height: 68px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.form1Area_1_2{
+	display: flex;
+	margin-top: 16px;
+}
+
+.form1Area_1{
+	float: left;
+	background-color: white;
+	width: 144px;
+	height: 38px;
+
+}
+
+.form1Area_2{
+	background-color: white;
+	width: 144px;
+	height: 38px;
+	margin-left: 42px;
+}
+
+.form1Area_1 p, .form1Area_2 p{
+	font-size: 15px;
+	text-align: center;
+	line-height: 38px;
+	font-weight: bold;
+}
+
+.form1Area3, .form1Area4, .form1Area5 {
+	background-color: white;
+	width: 330px;
+	height: 46px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.form1Area3 p, .form1Area4 p, .form1Area5 p{
+	font-size: 15px;
+	line-height: 46px; 
+	font-weight: bold;
+}
+
+.submitButton{
+	font-size: 15px;
+	width: 93px;
+	height: 22px;
+	background-color: white;
+	border-radius: 11px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+
+.submitButton a {
+	text-decoration:none;
+	line-height: 22px;
+	color: black;
+	font-weight: bold;
+}
+/*contact form 1 end */
+
+
+
+
+/*for contact form 2*/
+
+#contactForm_2{
+	width: 960px;
+	height: 620px;
+	display: flex;
+}
+
+#map{
+	width: 480px;
+	height: 620px;
+	background-color: #808080;
+	float: left;
+	text-align: center;
+	line-height: 620px;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+
+/*form 2 right side*/
+#form2Right{
+	width: 480px;
+	height: 620px;
+	background-color: white;
+	float: right;
+
+}
+
+#form2Right h3{
+	color: #707070;
+	font-size: 55px;
+	font-family: 'STSong';
+	text-align:center;
+	margin-top: 24px;
+}
+
+.form2Title{
+	width: 243px;
+	height: 36px;
+	background-color: #808080;
+	margin-left: 126px;
+	margin-top: 22px;
+}
+
+.form2Title p{
+	font-size: 23px;
+	text-align: center;
+	line-height: 36px;
+	font-weight: bold;
+}
+
+
+
+.form2Icon{
+	width: 369px;
+	height: 89px;
+	margin-top: 24px;
+	margin-left: 63px;
+}
+
+.form2Icon ul li {
+	background-color: #a8a1a4;
+	width: 109px;
+	height: 89px;
+	float: left;
+	text-align: center;
+	line-height: 89px;
+	font-size: 20px;
+	font-weight: bold;
+
+}
+
+
+.form2Icon ul li:nth-child(2){
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+
+/*form 2 bottom part*/
+.form2Bottom{
+	width: 369px;
+	height: 312px;
+	background-color: #808080;
+	margin-top: 29px;
+	margin-left: 63px;
+
+}
+
+
+.form2Title2{
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	padding-top: 9px;
+}
+
+
+
+.form2form_left{
+	float: left;
+	margin-left: 40px;
+}
+
+.form2form_left div:nth-child(1),.form2form_left div:nth-child(2),.form2form_left div:nth-child(3)  {
+	width: 141px;
+	height: 35px;
+	background-color: white;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 35px;
+	margin-bottom: 24px;
+
+}
+
+.form2form_left div:nth-child(1){
+	margin-top: 38px;
+}
+
+
+.submitButton2{
+	width: 89px;
+	height: 35px;
+	background-color: white;
+	border-radius: 18px;
+	text-align: center;
+}
+
+
+.submitButton2 a{
+	
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 35px;
+	color: black;
+}
+
+
+
+.form2form_right{
+	width: 132px;
+	height: 231px;
+	float: left;
+	margin-left: 22px;
+
+}
+
+
+
+.form2form_right p{
+	text-align: center;
+	font-weight: bold;
+	font-size: 15px;
+	margin-top: 16px;
+}
+
+.messageArea{
+	width: 132px;
+	height: 195px;
+	background-color: white;
+	margin-top: 22px;
+
+}
+
+/*contact form 2 end*/
+
+
+/*for footer */
+footer{
+	background-color: #5a5454;
+	height: 110px;
+	width: 960px;
+	display: flex;
+	flex-direction: row;
+}
+
+.footerLogo{
+	width: 208px;
+	height: 110px;
+	background-color: #2f2f2f;
+}
+
+.footerLogo p{
+	text-align: center;
+	line-height: 110px;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+.footerRight{
+	display: flex;
+	flex-direction: column;
+	float: left;
+	margin-left: 393px;
+	text-align: center;
+	margin-top: 35px;
+}
+
+.footerSocial{
+	width: 210px;
+	height: 39px;
+	background-color: white;
+	margin-left: 107px;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 39px;
+}
+
+.footerCopy{
+
+	width: 317px;
+	height: 13px;
+	background-color: white;
+	font-size: 9px;
+	font-weight: bold;
+	line-height: 13px;
+	margin-top: 11px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
