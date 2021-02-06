@@ -8,14 +8,13 @@ html{
 
 body{
 	font-family: Airal, sans-serif;
-	font-weight: 400;
+	font-weight: bold;
 	font-size: 30px;
 }
 #container{
 	width: 960px;
 	height: 1800px;
 	margin: 0 auto;
-	background-color: #24C7E5;
 	display: flex;
 	flex-direction: column;
 }
@@ -35,7 +34,7 @@ body{
 	background-color: #2f2f2f;
 	float: left;
 }
-#logo h2{
+#logo h3{
 	color: white;
 	text-align: center;
 	line-height: 100px;
@@ -49,8 +48,8 @@ body{
 	background-color: #5a5454;
 	float: left;
 }
-#mainNav h2{
-	color: #2f2f2f;
+#mainNav h3{
+	color: white;
 	text-align: center;
 	line-height: 100px;
 }
@@ -161,7 +160,6 @@ body{
 .form1Area p{
 text-align: center;
 margin-top: 13px;
-font-weight: bold;
 }
 
 .form1Title{
@@ -173,7 +171,6 @@ font-weight: bold;
 .form1Title p{
 	text-align: center;
 	line-height: 68px;
-	font-weight: bold;
 	font-size: 20px;
 }
 
@@ -201,7 +198,6 @@ font-weight: bold;
 	font-size: 15px;
 	text-align: center;
 	line-height: 38px;
-	font-weight: bold;
 }
 
 .form1Area3, .form1Area4, .form1Area5 {
@@ -214,7 +210,6 @@ font-weight: bold;
 
 .form1Area3 p, .form1Area4 p, .form1Area5 p{
 	font-size: 15px;
-	line-height: 46px; 
 	font-weight: bold;
 }
 
@@ -233,7 +228,6 @@ font-weight: bold;
 	text-decoration:none;
 	line-height: 22px;
 	color: black;
-	font-weight: bold;
 }
 /*contact form 1 end */
 
@@ -289,7 +283,6 @@ font-weight: bold;
 	font-size: 23px;
 	text-align: center;
 	line-height: 36px;
-	font-weight: bold;
 }
 
 
@@ -309,8 +302,6 @@ font-weight: bold;
 	text-align: center;
 	line-height: 89px;
 	font-size: 20px;
-	font-weight: bold;
-
 }
 
 
@@ -351,7 +342,6 @@ font-weight: bold;
 	background-color: white;
 	text-align: center;
 	font-size: 15px;
-	font-weight: bold;
 	line-height: 35px;
 	margin-bottom: 24px;
 
@@ -375,7 +365,6 @@ font-weight: bold;
 	
 	text-decoration: none;
 	font-size: 15px;
-	font-weight: bold;
 	line-height: 35px;
 	color: black;
 }
@@ -394,7 +383,6 @@ font-weight: bold;
 
 .form2form_right p{
 	text-align: center;
-	font-weight: bold;
 	font-size: 15px;
 	margin-top: 16px;
 }
@@ -430,7 +418,6 @@ footer{
 	line-height: 110px;
 	color: white;
 	font-size: 20px;
-	font-weight: bold;
 }
 
 
@@ -449,7 +436,6 @@ footer{
 	background-color: white;
 	margin-left: 107px;
 	font-size: 20px;
-	font-weight: bold;
 	line-height: 39px;
 }
 
@@ -459,7 +445,6 @@ footer{
 	height: 13px;
 	background-color: white;
 	font-size: 9px;
-	font-weight: bold;
 	line-height: 13px;
 	margin-top: 11px;
 }
@@ -467,9 +452,142 @@ footer{
 
 
 
+/*for  product page*/
+
+
+#productContainer{
+	width: 960px;
+	height: 2645px;
+	margin: 0 auto;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+}
+
+
+#productBanner{
+	width: 960px;
+	height: 338px;
+	background-color: white;
+	text-align: center;
+}
+.pbannerText h3 {
+	font-size: 25px;
+	margin-top: 19px;
+}
+
+
+.pBannerImage{
+	width: 960px;
+	height: 184px;
+	margin-top: 42px;
+	background-color: #C8C8C8;
+}
+
+.pBannerImage h3{
+	font-size: 37px;
+	text-align: center;
+	line-height: 184px;
+
+}
 
 
 
+/*for product gallery*/
+.product{
+	width: 960px;
+	height: 480px;
+	background-color: #808080;
+}
+
+.product div:nth-child(1){
+	width: 960px;
+	height: 60px;
+	line-height: 60px;	
+}
+
+.productTitle p{
+	text-align: center;
+	line-height: 60px;
+}
+
+
+
+
+.productBox{
+	width: 960px;
+	height:420px;
+	display: flex;
+}
+
+.productImg {
+	float: left;
+	width: 122px;
+	height: 239px;
+	background-color: white;
+	margin-top: 119px;
+	margin-left: 98px;
+
+}
+
+.product1Img h4{
+	font-size: 25px;
+	text-align: center;
+	line-height: 239px;
+}
+
+.productInfo{
+	margin-left: 46px;
+}
+
+.productInfo div:nth-child(2){
+	width: 277px;
+	height: 48px;
+	background-color: white;
+	text-align: center;
+	font-size: 25px;
+	line-height: 48px;
+}
+
+.productInfo div:nth-child(3) {
+	width: 575px;
+	height: 76px;
+	background-color: white;
+	text-align: center;
+	font-size: 25px;
+	line-height: 76px;
+	margin-top: 31px;
+	margin-bottom: 23px;
+}
+
+.productInfo div:nth-child(4) {
+	width: 450px;
+	height: 80px;
+	background-color: white;
+	text-align: center;
+	font-size: 25px;
+	line-height: 80px;
+	margin-left: 159px;
+	margin-bottom: 81px;
+}
+
+.productInfo a{
+	width: 122px;
+	height: 43px;
+	background-color: white;
+	text-decoration: none;
+	text-align: center;
+	font-size: 25px;
+	line-height: 43px;
+	color: black;
+	margin-top: 81px;
+	margin-left: 453px;
+}
+
+
+.product{
+	margin-top: 47px;
+}
 
 
 
